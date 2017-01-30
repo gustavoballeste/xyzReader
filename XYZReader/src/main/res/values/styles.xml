@@ -1,0 +1,57 @@
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Home">
+    </style>
+
+    <style name="ArticleTitle" parent="Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">@color/article_black</item>
+    </style>
+
+    <style name="ArticleSubtle" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/article_subtle_gray</item>
+    </style>
+
+    <style name="DetailTitle" parent="Base.TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/article_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/detail_title_text_size</item>
+        <item name="android:lineSpacingMultiplier">0.9</item>
+    </style>
+
+    <style name="DetailSubtle" parent="Base.TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/article_white</item>
+    </style>
+
+    <style name="DetailBody" parent="Base.TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/article_body</item>
+        <item name="android:textColorLink">@color/theme_link</item>
+        <item name="android:lineSpacingMultiplier">@fraction/detail_body_line_spacing_multiplier</item>
+    </style>
+
+</resources>
