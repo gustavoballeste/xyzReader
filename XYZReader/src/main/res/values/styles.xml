@@ -49,9 +49,9 @@
     </style>
 
     <style name="DetailBody" parent="Base.TextAppearance.AppCompat.Medium">
-        <item name="android:textColor">@color/article_body</item>
         <item name="android:textColorLink">@color/theme_link</item>
         <item name="android:lineSpacingMultiplier">@fraction/detail_body_line_spacing_multiplier</item>
+        <item name="android:textSize">@dimen/detail_body_text_size</item>
     </style>
 
 </resources>
